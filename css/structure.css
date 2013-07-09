@@ -1,0 +1,67 @@
+/* Structure */
+/*
+Defines the grid layout used for the sites CSS structure
+Page is our center aligned 95% width container. We have set it's 'position' as relative
+so that the Gridpak overlay will appear in the correct position. We have also updated
+the gridpak.js file to use '.block' as it's container.
+*/
+.block {margin:0 auto; max-width:1240px; overflow:hidden; position:relative;}
+
+/* Reusable column setup */
+.span {border:0px solid rgba(0,0,0,0); float:left; margin-bottom:12px; overflow:hidden; position:relative;
+	box-sizing:border-box;
+	moz-box-sizing:border-box;
+	webkit-box-sizing:border-box;
+	background-clip:padding-box !important;
+	moz-background-clip:padding-box !important;
+	webkit-background-clip:padding-box !important;
+}
+.span img {width:100%;}
+.span a,
+.span a img {display:block;}
+.span a {position:relative;}
+
+
+/* Mobiles */
+@media screen and (min-width: 0px) and (max-width: 319px) {
+	.row {margin-left:-12px;}
+	.span {border-left-width:12px; padding:0 12px;}
+
+	.one {width:50%;}
+	.two,
+	.span {margin-left:0; width:100%;}
+}
+
+
+/* Tablets */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	.span {padding:0 2%; width:100%;}
+	.row .span:first-child {margin-left:0;}
+
+	.one {width:15.0%;}
+	.two {width:32.0%;}
+	.three {width:49.0%;}
+	.four {width:66.0%;}
+	.five {width:83.0%;}
+	.six {margin-left:0; width:100%;}
+}
+
+
+/* Monitors */
+@media screen and (min-width: 769px) {
+	.row {margin-left:-12px;}
+	.span {border-left-width:12px;}
+
+	.one {width:8.33333333333%;}
+	.two {width:16.6666666667%;}
+	.three {width:25.0%;}
+	.four {width:33.3333333333%;}
+	.five {width:41.6666666667%;}
+	.six {width:50.0%;}
+	.seven {width:58.3333333333%;}
+	.eight {width:66.6666666667%;}
+	.nine {width:75.0%;}
+	.ten {width:83.3333333333%;}
+	.eleven {width:91.6666666667%;}
+	.twelve {width:100%;}
+}

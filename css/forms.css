@@ -1,0 +1,13 @@
+/* Forms */
+form input[type="text"],
+form textarea,
+form select {border:1px solid #e1e1e1; border-radius:3px; color:#666; display:block; font-family:Arial, Helvetica, sans-serif; font-size:15px;}
+form input[type="text"],
+form textarea {padding:6px 10px;}
+form select {padding:5px 6px 5px 10px;}
+form div p {color:#666;}
+form div p em {color:red;}
+form p {margin:0 0 2px;}
+
+.single-input input[type="text"] {border:0; border-radius:3px 0 0 3px; float:left; font-style:italic; height:45px; padding:0 20px;}
+.single-input input[type="submit"] {background-color:#232323; border:0; border-radius:0 3px 3px 0; color:#fff; float:left; font:24px "proxima-nova", sans-serif; font-weight:900; font-weight:bold; height:45px; padding:0 20px; text-transform:uppercase;}

@@ -1,0 +1,50 @@
+
+/* Global */
+body {background-color:#FFF; color:#333; font-family:Helvetica, Arial, sans-serif;}
+
+
+/* Header */
+header.block {border-bottom:1px solid #efefef; margin-bottom:20px; padding-bottom:2px;}
+header .logo {float:left;}
+
+header nav ul {font-size:0;}
+header nav li {display:inline-block;}
+header nav li a {display:block; font-family:"proxima-nova", helvetica, arial, sans-serif;}
+header nav li:last-child a {border-right:0;}
+header nav li.menu-parent-item {position:relative;}
+header nav li.menu-parent-item > a {background:url('../images/sprite/icons.png') no-repeat right -36px; padding-right:35px;}
+header nav li.menu-parent-item ul {background-color:#121212; display:none; padding:9px 0; position:absolute; text-align:left; top:19px; width:100%;}
+header nav li.menu-parent-item:hover ul {display:block;}
+header nav li.menu-parent-item ul li a {border:0; display:block; padding:5px 15px 5px 25px; text-align:left;}
+
+header nav.community-nav {padding:15px 0 25px; text-align:right;}
+header nav.community-nav li a {padding:0 15px;}
+header nav.community-nav li:last-child a {padding-right:0;}
+
+header nav.nav {float:left; margin-left:40px; padding:4px 0;}
+header nav.nav li a {font-size:20px; padding:0 35px;}
+
+header .sign-up {float:right;}
+
+
+/* Footer */
+footer {padding:50px 0 100px;}
+footer .navigation {float:left; padding:19px 0; width:60%;}
+footer .navigation ul {font-size:0;}
+footer .navigation li {display:inline-block;}
+footer .navigation li a {display:block; float:none; font-family:"proxima-nova", sans-serif; padding-right:50px; text-transform:uppercase;}
+footer .navigation li:last-child a {background:none;}
+
+footer .newsletter {float:right; width:418px;}
+footer .newsletter input[type="text"] {background-color:#464646; width:310px;}
+footer .newsletter input[type="submit"] {background-color:#fff; border-radius:3px; color:#232323; font-size:28px; margin-left:-3px; padding:0 10px;}
+
+footer .social {float:right; margin-top:20px;}
+footer .social li {display:inline-block; margin-left:10px;}
+footer .social li a {background:url('../images/sprite/icons.png') no-repeat -3px -56px; display:block; height:40px; margin-left:-3px; overflow:hidden; text-indent:-999px; width:40px;}
+footer .social .rss a {background-position:-3px -56px;}
+footer .social .twitter a {background-position:-44px -56px;}
+footer .social .facebook a {background-position:-85px -56px;}
+footer .social .pinterest a {background-position:-127px -56px;}
+
+footer .copyright {font:12px georgia, serif;}

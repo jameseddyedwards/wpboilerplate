@@ -1,0 +1,49 @@
+/* Utilities */
+address {display:block; margin-bottom:20px; line-height:20px; font-style:normal;}
+
+blockquote {font:100 24px/34px "proxima-nova", helvetica, arial, sans-serif;}
+blockquote .opening,
+blockquote .closing {background:#dedede; display:block; height:35px;}
+blockquote .opening {background:#dedede url('../images/sprite/icons.png') no-repeat left -234px; margin-bottom:20px;}
+blockquote .quoted {display:block; font:italic 16px georgia, serif; margin-top:20px; text-transform:none;}
+blockquote .quoted:before {content:"- ";}
+blockquote .closing {background:#dedede url('../images/sprite/icons.png') no-repeat right -273px; margin:20px 0;}
+
+cite {font-style:normal;}
+hr {border-bottom:1px dotted #3c3c3c;}
+
+
+/* Utility Classes */
+.bottom {border-bottom:0; margin-bottom:0;}
+.center {text-align:center;}
+.clear {clear:both;}
+.excerpt {color:#191919; display:block; font-size:15px; font-style:italic; line-height:22px;}
+.hidden {display:none;}
+.hide-text {background-color:transparent; border:0; color:transparent; font:0/0 a; text-shadow:none;}
+.link-more {font-size:20px; margin:15px 0 30px;}
+.top {margin-top:0;}
+
+
+/* Utility Snippets */
+.testimonial blockquote {color:#fff;}
+.testimonial h3 {color:#fff;}
+
+
+/* Assistive Text */
+.assistive-text {position:absolute !important; clip:rect(1px 1px 1px 1px); /* IE6, IE7 */}
+.access a.assistive-text:active,
+.access a.assistive-text:focus {background:#eee; border-bottom:1px solid #ddd; color:#1982d1; clip:auto !important; font-size:12px; position:absolute; text-decoration:underline; top:0; left:7.6%;}
+
+
+/* Clearfix */
+.cf, .row, .block {zoom:1;} /* IE6/7 Only */
+.cf:before, .row:before, .block:before,
+.cf:after, .row:after, .block:after {display:block; content:"."; height:0; overflow:hidden;}
+.cf:after, .row:after, .block:after {clear:both;}
+
+
+/* Responsive Visibility */
+.visible-phone {display:none;}
+.visible-tablet {display:none;}
+.hidden-desktop {display:none;}
+.visible-desktop {display:inherit;}

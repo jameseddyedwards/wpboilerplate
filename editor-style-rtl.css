@@ -1,0 +1,9 @@
+/*
+Theme Name: wpboilerplate
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody {direction:rtl; float:right; max-width:584px; unicode-bidi:embed;}
+* {font-family:Arial, Tahoma, sans-serif;}
+ul, ol {margin: 0 2.5em 1.625em 0;}
+blockquote {font-style:normal;}
+table {text-align:right;}
